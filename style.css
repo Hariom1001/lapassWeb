@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --font-oswalt:'Oswald', sans-serif !important;
+   --text-black:color: #272727;
+}
+p{
+    margin-bottom: 0 !important;
+}
+a{
+    text-decoration: none;
+    color: #272727;
+
+}
+h2 , h3 {
+    font-family: var(--font-oswalt);
+}
+.para{
+    font-family: "Questrial",Sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 27px;
+}
+body{
+    font-family: 'Questrial', sans-serif;
+    /* font-family: 'Jost', sans-serif; */
+    color: #272727;
+}
+
+.top-header{
+    font-family: 'Oswald', sans-serif !important;
+
+}
+.header-social-link a{
+    display: inline-block;
+    padding: 0 4px;
+    color: #272727;
+}
+nav ul li > a{
+    font-family: var(--font-oswalt);
+    font-size: 19px !important;
+    color: #000 !important;
+    padding: 0 15px 0 15px !important;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.hero-h1{
+    font-family: var(--font-oswalt);
+    font-size: 42px;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 1.1em;
+letter-spacing: 2px;
+}
+
+/* section title  */
+.sect-title-big{
+    font-family: var(--font-oswalt);
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+}
+.sect-title-small{
+    line-height: 1.5;
+}
+.service-box{
+    box-sizing: border-box;
+    align-content: flex-start;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+    
+}
+.service-icon{width: 90px; margin-bottom: 20px;}
+.service-title{
+    padding:10px 0 10px 0;
+    font-weight: 700;
+    font-size: 23px;
+}
+.service-title a{
+    text-decoration: none;
+    color: #272727;
+}
+.service-para{
+    color: #3D3D3D;
+font-family: "Questrial",Sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 1.75em;
+}
+
+/* business section  */
+.business-box h2{
+    color: #FFF;
+font-family: var(--font-oswalt);
+font-size: 34px;
+font-weight: 500;
+text-transform: uppercase;
+line-height: 52px;
+letter-spacing: 0;
+background-color: black;
+text-align: center;
+}
+
+/* count number  */
+.business-box{
+    border: 1px solid #DCDCDC;
+}
+.g-color{
+    color: #2E5E09;
+    
+}
+.count-number span{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: var(--font-oswalt);
+}
+.g-color h3{
+    font-family: var(--font-oswalt);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.business-box  p{
+    margin-top: 15px;
+    text-align: left;
+color: #000;
+font-family: "Questrial",Sans-serif;
+font-size: 19px;
+line-height: 26px;
+padding: 0 20px;
+
+}
+.light-border{
+    border-color: #DCDCDC !important;
+}
+
+/* excute  */
+
+.excute-box{
+    border: 1px solid #272727;
+    padding: 48px 24px 48px 24px;
+    border-radius: 8px 8px 8px 8px;
+    text-align: center;
+    position: relative;
+}
+
+.excute-img-wrapper{}
+.excute-no{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #272727;
+    padding: 11px;
+    font-size: 23px;
+    display: inline-block;
+    position: absolute;
+    left: 70.925%;
+    top: 15.292%;
+    z-index: 1;
+    line-height: 27px;
+    
+
+}
+.excute-title{
+    font-family: "Oswald",Sans-serif;
+    font-size: 24px;
+    color: #272727;
+    padding: 10px 0;
+
+}
+.excute-para{
+    font-family: "Questrial",Sans-serif;
+font-size: 20px;
+color: #272727;
+padding: 0 22px;
+}
+.excute-arrow-wrapper{
+    width: 100%;
+    position: absolute;
+    left: 175px;
+    top: 28px;
+    z-index: 123131313;
+}
+.excute-arrow-wrapper img{
+    width:180px;
+opacity: .5;
+filter: brightness(100%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
+
+}
+
+/* blog post  section  */
+.blog-post-wrapper{
+    border:  1px solid #DCDCDC;
+    padding: 15px;
+}
+.blog-post-img-wrapper{height: 250px;}
+.blog-post-img-wrapper img{object-fit: cover;}
+.blog-post-title{
+    padding: 15px 0 5px 0;
+    font-family: var(--font-oswalt);
+    font-size: 24px;
+    font-weight: 600;
+}
+.blog-post-desc{
+    padding-bottom: 8px;
+    font-size:18px;
+    color: #777;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.bp-read-btn{
+    color: var(--text-black);
+font-family: "Oswald",Sans-serif;
+font-size: 20px;
+text-decoration: none;
+}
+.testimonial-title{
+    font-size: 42px !important;
+    font-weight: 700;
+text-transform: uppercase;
+line-height: 1.1em;
+letter-spacing: 2px;
+}
+.test-line{
+   
+    width: 100%;
+    border: 1px solid black;
+    
+
+}
+.testimonial-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 4.5;
+    text-align: right;
+}
+.testimonial-wrapper{
+    border:  1px solid #DCDCDC;
+padding: 15px;
+}
+.testimonial-img img{
+    width: 60px;
+height: 60px;
+border-radius: 50%;
+object-fit: cover;
+}
+.testimonial-divider{
+    margin: 8px 0;
+    border-top: 1px dotted #898989;
+}
+.testimonial-content{
+    color: #898989;
+font-family: "Open Sans",Sans-serif;
+font-size: 20px;
+font-weight: 400;
+font-style: italic;
+line-height: 1.5em;
+}
+blockquote q::before {
+    font-size: 50px;
+    color: #ef15c4;
+    line-height: .8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+    
+  }
+  blockquote q::after {
+    /* font-size: 50px; */
+    color: #ef15c4;
+    line-height: .8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+    
+  }
+.testimonial-name{
+    color: var(--text-black);
+font-family: var(--font-oswalt);
+font-size: 20px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: .3px;
+}
+.testimonial-job{
+    color: #ef15c4;
+font-family: "Rubik",Sans-serif;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+  .accordion-item:last-of-type {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  /* .accordion-button:not(.collapsed){
+    border-bottom: 1px solid black;
+  } */
+.faq-header button{
+    font-family:var(--font-oswalt) !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: var(--text-black) !important;
+  
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent !important;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(img/icon/minus.png) !important;
+    
+  }
+  .accordion-button::after{
+    background-image: url(img/icon/plus.png) !important;
+
+  }
+.faq-ans{
+    font-family: "Questrial",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* footer h2{
+    font-size: 20px !;
+} */
+footer ul {
+    list-style-type: none;
+    margin-left: -27px;
+}
+
+footer ul li a{
+    display: inline-block;
+    padding: 4px 0;
+    font-size: 20px;
+}
+.sub-footer a{
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 6px;
+}
+
+/* blog page  */
+.post-heading{
+    font-family: "Oswald",Sans-serif;
+font-size: 42px;
+font-weight: 600;
+}
+.post-share-btn a{
+    background-image: linear-gradient(90deg,rgba(0,0,0,.12),transparent);
+background-color: black;
+padding: 8px 12px;
+color: #fff;
+margin: 0 5px;
+font-size: 16px;
+border-radius: 4px;
+}
+.recent-published-post article{
+    border: 1px solid #DCDCDC;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-oswalt);
+    margin: 5px 0;
+}
+.recent-published-post article a{
+    line-height: 1.3;
+    display: inline-block;
+}
+.post-sidebar a{
+display: block;
+padding: 8px 0;
+font-size: 23px;
+}
+.post-sidebar-heading{
+    padding-top: 23px;
+    padding-bottom: 0px;
+}
+.post-sidebar-category ul li{
+    list-style: square;
+}
+.post-sidebar-category ul li a{
+    display: inline-block;
+font-size: 21px;
+}
+.main-post-content-img-wrapper{
+    padding:27px 0 20px 0;
+}
+.main-post-content h2 , h3 , h4 ,h5{
+    padding: 14px 0;
+}
+.main-post-content  p{
+    padding: 3px 0 !important;
+}
+.main-post-content  ul li a{
+    padding: 4px 0 !important;
+    display: inline-block;
+}
+.main-post-content div{
+    margin: 5px 0;
+}
+.main-post-content table {
+    font-family: "Questrial",Sans-serif;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 5px 0;
+  }
+  .main-post-content table tbody > tr:nth-child(2n+1) > td, table tbody > tr:nth-child(2n+1) > th {
+    background-color: #f7f7f7;
+  }
+  .main-post-content table td, table th {
+    padding: 15px;
+    line-height: 1.5;
+    vertical-align: top;
+    border: 1px solid #ccc;
+  }
+  .next-article-wrapper span{
+display: block;
+  }
+  .next-btn-sign{
+    font-size: 25px;
+    margin-right: 18px;
+    font-weight: 600;
+  }
+  .next-btn-name{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .next-article-post-name{
+    font-size: 16px;
+    font-family: "Oswald",Sans-serif;
+font-weight: 400;
+color: var(--text-black);
+  }
+  .realted-post-heading{
+    font-family: var(--font-oswalt);
+    font-weight: 600;
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 23px;
+  }
+ .realted-post-heading::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 77px;
+    display: inline-block;
+    background-color: black;
+    bottom: -10px;
+    left: 2px;
+
+  }
+
+  /* comment  */
+  .comment-textarea-box , .name-input , .email-input, .url-input{
+    overflow: auto;
+    resize: vertical;
+    width: 100%;
+    border: 1px solid #666;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+  }
+  .comment-section form label{
+    display: inline-block;
+line-height: 1;
+vertical-align: middle;
+color: #272727;
+font-family: "Questrial",Sans-serif;
+font-size: 20px;
+  }
